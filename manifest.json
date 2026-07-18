@@ -1,12 +1,15 @@
 {
     "name": "NSFW Image Searcher",
     "short_name": "NSFW Search",
-    "description": "Buscador de imágenes NSFW",
+    "description": "Buscador rápido de imágenes NSFW desde Reddit",
     "start_url": "./",
     "display": "standalone",
     "background_color": "#0f0f0f",
     "theme_color": "#ff0066",
     "orientation": "portrait-primary",
+    "id": "nsfw-image-searcher",
+    "lang": "es",
+    "scope": "./",
     "icons": [
         {
             "src": "icons/icon-192.png",
@@ -32,5 +35,8 @@
             "type": "image/png",
             "purpose": "maskable"
         }
-    ]
+    ],
+    "screenshots": [],
+    "categories": ["entertainment", "lifestyle"],
+    "prefer_related_applications": false
 }
